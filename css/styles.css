@@ -3784,7 +3784,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color:  #000;
+  --bs-nav-link-color: var(--bs-navbar-color);
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: flex;
@@ -8057,7 +8057,7 @@ textarea.form-control-lg {
 
 .text-warning {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  color: #198754!important;
 }
 
 .text-danger {
@@ -8107,7 +8107,7 @@ textarea.form-control-lg {
 
 .text-reset {
   --bs-text-opacity: 1;
-  color: inherit !important;
+  color: #198754!important;
 }
 
 .text-opacity-25 {
@@ -8128,7 +8128,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color:   #0d6efd !important;
+  background-color:  #0d6efd!important;
 }
 
 .bg-secondary {
